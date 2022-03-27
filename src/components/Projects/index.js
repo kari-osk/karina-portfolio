@@ -24,7 +24,7 @@ const data = [
   },
   {
     id: '3',
-    title: 'Article',
+    title: 'Article preview',
     link: 'https://github.com/kari-osk/article-preview',
     image: project3
   },

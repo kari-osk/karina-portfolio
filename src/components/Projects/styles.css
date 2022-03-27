@@ -46,9 +46,10 @@
 }
 
 .projects-title {
+  padding-top: 25px;
+  text-align: center;
   font-size: 1rem;
   font-weight: 300;
-  padding: 8px;
 }
 .projects-list a {
   text-decoration: none;
