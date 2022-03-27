@@ -89,11 +89,15 @@ export default function About() {
       <h1>About me</h1>
       <section className="about-container">
         <div className="about-text">
-          <h2>brief history</h2>
+          <h2>Hello again...</h2>
           <p className="about-text-p">
-            Acima de tudo, é fundamental ressaltar que o desenvolvimento
-            contínuo de distintas formas de atuação estende o alcance e a
-            importância das direções preferenciais no sentido do progresso.
+            My name is Karina Osuka.
+            <br />
+            <br />I am a student of Full Stack developement, with a special
+            focus in Front-end. I have also challeging myself to learn more
+            about UI/UX to improve as a Developer.
+            <br />I am vegetarian, have a little dog and I am based in São
+            Paulo, Brazil.
           </p>
         </div>
         <div className="technology">

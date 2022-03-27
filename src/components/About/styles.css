@@ -3,9 +3,9 @@
   background-color: #e5e5e5;
 }
 .about h1 {
-  padding-top: 24px;
+  padding: 24px;
   text-align: center;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 2rem;
 }
 .about-container {
@@ -14,19 +14,28 @@
   margin: 0 auto;
   padding: 25px 0;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
   justify-content: space-between;
 }
 .about-text {
   align-self: center;
   padding: 20px;
 }
+.about-text h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding-bottom: 16px;
+}
 .about-text-p {
   max-width: 350px;
+  margin: 0;
+  line-height: 1.5rem;
 }
 
 .technology h3 {
   font-weight: 400;
+  font-size: 1.2rem;
+  padding-left: 44px;
 }
 
 .technology-item {
@@ -49,8 +58,6 @@
 }
 @media (max-width: 375px) {
   .about-container {
-    display: grid;
-    grid-template-columns: 1fr;
     justify-content: center;
   }
   .technology-item {

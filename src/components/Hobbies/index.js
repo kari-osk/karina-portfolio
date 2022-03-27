@@ -41,10 +41,9 @@ export default function Hobbies() {
       <section className="hobbies" id="hobbies">
         <h1 className="hobbies-h1">Hobbies</h1>
         <p className="hobbies-p">
-          Art, travel, photography Acima de tudo, é fundamental ressaltar que o
-          desenvolvimento contínuo de distintas formas de atuação estende o
-          alcance e a importância das direções preferenciais no sentido do
-          progresso.
+          In my free time I used to enjoey travel and photography, but since
+          covid hit I started to create some art in linocut printing, an old
+          technique of print.
         </p>
         <ul className="hobbies-list">
           {data.map(({ image }) => (
