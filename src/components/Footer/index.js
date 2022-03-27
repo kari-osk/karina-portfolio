@@ -6,6 +6,7 @@ export default function Footer() {
     <footer className="footer" id="contact">
       <ul className="footer-item">
         <h1 className="footer-text">Contact me at</h1>
+        <br />
         <a
           className="icon"
           target="_blank"

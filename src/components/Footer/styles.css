@@ -14,6 +14,7 @@
 .footer-item {
   justify-content: center;
   align-items: center;
+  padding: 12px;
 }
 .icon {
   padding: 10px;
