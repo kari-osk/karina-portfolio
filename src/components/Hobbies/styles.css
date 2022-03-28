@@ -12,9 +12,10 @@
   font-weight: 400;
 }
 .hobbies-p {
-  width: 350px;
+  width: 480px;
   margin: 0 auto 32px;
   line-height: 1.5rem;
+  color: #000;
 }
 
 .hobbies-text-item {
@@ -29,13 +30,10 @@
 .hobbies-item-list {
   list-style: none;
   margin: 0 auto;
+  padding-bottom: 16px;
 }
 .hobbies-item-list img {
   width: 220px;
-}
-
-.hobbies-item-list img:hover {
-  transform: scale(1.01);
 }
 
 @media (max-width: 640px) {
@@ -55,6 +53,9 @@
 @media (max-width: 375px) {
   .hobbies {
     width: 375px;
+  }
+  .hobbies-p {
+    width: 340px;
   }
   .hobbies-item-list img {
     width: 100%;

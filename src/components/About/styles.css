@@ -30,6 +30,7 @@
   max-width: 350px;
   margin: 0;
   line-height: 1.5rem;
+  color: #000;
 }
 
 .technology h3 {
@@ -54,11 +55,18 @@
   width: 60px;
 }
 
-@media (max-width: 640px) {
-}
 @media (max-width: 375px) {
   .about-container {
     justify-content: center;
+    grid-template-columns: 100%;
+    margin: 0 auto;
+  }
+  .technology {
+    width: 360px;
+    text-align: center;
+  }
+  .technology h3 {
+    padding: 24px 0;
   }
   .technology-item {
     width: 360px;

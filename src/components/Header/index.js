@@ -24,7 +24,7 @@ export default function Header() {
             Projects
           </li>
           <li className="item-menu" onClick={() => scrollToComponent('about')}>
-            About me
+            About
           </li>
 
           <li

@@ -12,38 +12,38 @@ import project6 from '../../assets/project6.png'
 const data = [
   {
     id: '1',
-    title: 'Social proof',
+    title: 'Web page of social proof, with client testimonials.',
     link: 'https://github.com/kari-osk/social-proof-section',
     image: project1
   },
   {
     id: '2',
-    title: 'Accordion card',
+    title: 'FAQ create with accordion card.',
     link: 'https://github.com/kari-osk/faq-accordion-card',
     image: project2
   },
   {
     id: '3',
-    title: 'Article preview',
+    title: 'Responsive web of article preview.',
     link: 'https://github.com/kari-osk/article-preview',
     image: project3
   },
   {
     id: '4',
-    title: 'NFT card',
+    title: 'Mobile NFT card',
     link: 'https://github.com/kari-osk/nft-preview-card',
     image: project4
   },
   {
     id: '5',
-    title: 'Four card feature',
+    title: 'Responsive four card feature',
     link: 'https://github.com/kari-osk/four-card-feature',
     image: project5
   },
 
   {
     id: '6',
-    title: 'Preview card',
+    title: 'Responsive preview card',
     link: 'https://github.com/kari-osk/stats-preview-card',
     image: project6
   }
@@ -54,6 +54,7 @@ export default function Projects() {
     <section className="projects" id="projects">
       <div className="projects-container">
         <h1 className="projects-h1">Projects</h1>
+
         <ul className="projects-list">
           {data.map(({ title, link, image }) => (
             <a href={link} target="_blank" rel="noreferrer">

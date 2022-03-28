@@ -42,8 +42,8 @@ export default function Hobbies() {
         <h1 className="hobbies-h1">Hobbies</h1>
         <p className="hobbies-p">
           In my free time I used to enjoey travel and photography, but since
-          covid hit I started to create some art in linocut printing, an old
-          technique of print.
+          covid hit I started to create art in linocut printing, a printmaking
+          technique. Here some of my art work.
         </p>
         <ul className="hobbies-list">
           {data.map(({ image }) => (

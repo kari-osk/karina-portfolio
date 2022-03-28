@@ -86,7 +86,7 @@ const skills = [
 export default function About() {
   return (
     <main className="about" id="about">
-      <h1>About me</h1>
+      <h1>About</h1>
       <section className="about-container">
         <div className="about-text">
           <h2>Hello again...</h2>
